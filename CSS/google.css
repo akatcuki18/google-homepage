@@ -1,0 +1,26 @@
+.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-top: 209px;
+}
+
+.image {
+    width: 272px;
+    height: 92px;
+    position: absolute;
+    background: url('https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png') no-repeat content;
+    background-size: cover;
+}
