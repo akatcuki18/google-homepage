@@ -1,18 +1,15 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    height: 100%; 
-    position: absolute; 
-    overflow: auto; 
-  }
-  li {
-    display: inline;
+.navi {
     float: right;
 }
-
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+li {
+    display: inline;
+}
 .image-container {
+    background-position: center;
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 11.4%;
@@ -22,4 +19,13 @@ ul {
 #image {
     position: absolute;
 }
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 60px;
+    border-radius: 50px;
+}
+
 
